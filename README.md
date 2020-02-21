@@ -8,6 +8,15 @@ You can visit the deployed app, at http://soygitana.github.io/namaste/
 
 <br>
 
+Technologies used:
+React.js
+ES6
+Sass
+Axios / Fetch API
+JSON
+react-paginate
+react-scroll
+
 ## How to run?
 
 <br>
