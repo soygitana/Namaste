@@ -6,7 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can visit the deployed app, at http://soygitana.github.io/namaste/
 
-<br>
 
 ### Technologies used
 
@@ -16,6 +15,7 @@ You can visit the deployed app, at http://soygitana.github.io/namaste/
 * React UI components
 * React Hooks
 
+<br>
 
 ## How to run?
 
