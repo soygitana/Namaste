@@ -20,11 +20,17 @@ Open it in your IDE.
 
 1. Install npm:
 
+```
 $ npm install
+```
+
 
 2. To run just type:
 
+```
 $ npm start
+```
+
 
 For full compatibilty please use Chrome.
 
