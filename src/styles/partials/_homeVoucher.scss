@@ -1,0 +1,36 @@
+.home-voucher {
+    height: 250px;
+    background: $colorDeco;
+    color: #fff;
+    margin: 50px 0px;
+    padding-left: 450px;
+
+    .title {
+        margin: 15px 0 0 0;
+        color: #fff;
+    }
+
+    .text {
+        color: #fff;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    .button {
+        background: $colorLight;
+        color: rgb(53, 52, 52);
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    i {
+        font-size: 20px;
+        padding-right: 10px;
+        margin-top: 0px;
+        color:  rgb(53, 52, 52);
+       
+    }
+}

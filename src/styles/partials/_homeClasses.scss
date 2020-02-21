@@ -1,0 +1,27 @@
+.home-classes {
+  margin-top: 50px;
+
+  .container-flex {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 25px;
+  }
+
+  .button {
+    margin-top: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+

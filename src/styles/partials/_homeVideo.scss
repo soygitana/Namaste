@@ -1,0 +1,19 @@
+.home-video {
+    margin-top: 70px;
+
+    .title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+    .container-flex {
+     justify-content: center;
+     margin-top: 50px;
+    }
+
+    .myVideo {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}

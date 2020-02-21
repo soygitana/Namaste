@@ -1,0 +1,62 @@
+.class-page {
+   
+    .title {
+        color: $colorDarkestGrey;
+        margin-bottom: 30px;
+        font-size: 25px;
+        &:nth-of-type(1) {
+            text-transform: uppercase;
+            font-size: 30px;  
+        }
+    }
+
+    .text {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .text:nth-of-type(4) {
+        text-transform: uppercase;
+        text-align: left;
+        width: 100%;
+        font-weight: 600;
+    }
+    .quote {
+        margin: 20px 0;
+    }
+
+    ul {
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+        letter-spacing: .5px;
+        li {
+            padding: 2px
+        }
+    }
+
+    .container-flex {
+        flex-direction: row;
+    }
+    .box-flex {
+       flex-basis: 80%;
+       text-align: left;
+    }
+
+    .box-flex:nth-of-type(2) {
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-basis: 20%;
+        margin-top: 50px;
+        li {
+            list-style: none;
+            }
+        
+    }
+
+    .button {
+        margin: 5px;
+        text-decoration: none;
+    }
+}
+

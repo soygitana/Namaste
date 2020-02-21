@@ -1,0 +1,44 @@
+.home-membership,
+.home-classes {
+
+  h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 50px 0 20px 0;
+  }
+
+  .title {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  
+  .container-classes {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    .button {
+        margin: 10px
+    }
+  }
+  
+  .container-flex-classes {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+  }
+
+}
+
+.container-flex-cards {
+  width: 70%;
+  margin: 70px 0;
+}
+
