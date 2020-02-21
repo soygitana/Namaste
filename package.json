@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://soygitana.github.io/namaste-React_App/",
+  "homepage": "https://soygitana.github.io/namaste",
   "dependencies": {
     "@syncfusion/ej2-react-schedule": "^17.4.41",
     "link-react": "^3.0.0",
@@ -17,11 +17,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
