@@ -5,6 +5,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can visit the deployed app, at http://soygitana.github.io/namaste/
 
+## How to run?
+
+
+Requires Node.js v4+ to run.
+
+Clone this repository or download and unzip this zip file.
+
+Open it in your IDE.
+
+Install npm:
+
+$ npm install
+
+$ npm start
+
+For full compatibilty please use Chrome.
+
 ## Available Scripts
 
 In the project directory, you can run:
