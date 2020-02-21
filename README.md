@@ -43,6 +43,7 @@ $ npm start
 
 For full compatibilty please use Chrome.
 
+<br>
 
 ### Learn More
 
