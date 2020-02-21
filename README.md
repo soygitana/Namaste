@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can visit the deployed app, at http://soygitana.github.io/namaste/
 
+<br>
+
 ## How to run?
 
 <br>
