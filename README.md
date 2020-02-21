@@ -1,6 +1,6 @@
 in progress...
 
-https://soygitana.github.io/namaste/
+http://soygitana.github.io/namaste/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
