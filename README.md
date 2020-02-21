@@ -1,4 +1,4 @@
-in progress...
+# Namaste
 
 http://soygitana.github.io/namaste/
 
