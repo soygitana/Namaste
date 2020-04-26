@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.scss';
 import {
-  Router,
+  HashRouter,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -19,7 +19,7 @@ import Schedule from './components/Schedule.jsx';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Navigation />
       <Switch>
         <Route exact path='/' component={Home} />
@@ -33,7 +33,7 @@ function App() {
         {/* <Route component={NotFound} /> */}
       </Switch>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
