@@ -6,16 +6,15 @@ import SuccessMessage from './SuccessMessage.jsx';
 
 
 class ContactForm extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             errors: [],
             showSuccess: false,
         };
-        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleSubmit(e) {
+    handleSubmit = (e) => {
         e.preventDefault();
 
         const name = ReactDOM.findDOMNode(this._nameInput).value;
@@ -97,7 +96,6 @@ class ContactForm extends Component {
         )
     }
 }
-
 
 export default ContactForm;
 
