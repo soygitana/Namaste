@@ -2,20 +2,14 @@ import React, { Component } from "react";
 import Logo from './Logo.jsx'
 import { Link } from 'react-router-dom';
 
-
 class Navigation extends Component {
-    constructor() {
-        super();
 
-        this.state = {
+       state = {
             showMenu: false,
         }
-        this.showMenu = this.showMenu.bind(this);
-    }
+   
+    showMenu = () => {
 
-    showMenu(event) {
-        event.preventDefault();
-        
         this.setState({
           showMenu: !this.state.showMenu
         });
@@ -38,9 +32,8 @@ class Navigation extends Component {
                         <ul className="page-nav-list">
                             <li><Link to='/'>home</Link></li>
                             <li>
-                                <Link onClick={this.showMenu} to='/' className="page-nav-about">about<i class="fa fa-angle-down"></i></Link>
-                                {
-                                    this.state.showMenu
+                                <Link onMouseEnter={this.showMenu} to='/' className="page-nav-about">about<i class="fa fa-angle-down"></i></Link>
+                                {this.state.showMenu
                                         ? (
                                             <div className="drop-list">
                                                 <Link to="/about" className="drop-list-item">about our club</Link>
@@ -50,8 +43,7 @@ class Navigation extends Component {
                                         )
                                         : (
                                             null
-                                        )
-                                }
+                                        )}
                             </li>
                             <li><Link to='/classes'>classes</Link></li>
                             <li><Link to='/schedule'>class schedule</Link></li>
