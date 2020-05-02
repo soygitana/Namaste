@@ -2,7 +2,7 @@
   background: #181818;
   margin-top: 50px;
 
-  .title {
+  .title:nth-of-type(1) {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
@@ -11,8 +11,9 @@
     width: 100%;
     margin: 50px 0 10px 0;
     padding: 0;
-  }
-
+  } 
+  
+  
   .text {
     font-size: 15px;
     margin: 5px 0;
