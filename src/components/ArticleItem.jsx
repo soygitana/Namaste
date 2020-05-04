@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { yoga } from './database';
 
-
-const ArticleItem = props => [
+const ArticleItem = props => (
   <div className="class-page app-container">
     <div className="container-flex">
       <div className="box-flex">
@@ -34,7 +33,6 @@ const ArticleItem = props => [
       </div>
     </div>
   </div>
-]
-
+)
 
 export default ArticleItem;

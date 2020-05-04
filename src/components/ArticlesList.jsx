@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { yoga } from './database'
 
-const ArticleList = () => [
+const ArticleList = () => (
   <ul className="container-flex container-flex-classes">
     {Object.keys(yoga).map(key => (
       <li key={key}>
@@ -10,6 +10,6 @@ const ArticleList = () => [
       </li>
     ))}
   </ul>
-];
+)
 
 export default ArticleList;
