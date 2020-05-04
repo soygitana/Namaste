@@ -10,7 +10,6 @@
 
 # production
 /build
-/_normalize.scss
 
 # misc
 .DS_Store
