@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Carousel from "./Carousel.jsx";
 import img from "../assets/about.jpg";
 
 class About extends Component {
@@ -47,19 +48,10 @@ class About extends Component {
                 </h2>
               </div>
             </div>
-
             <div className="container-flex">
               <h2 className="title">our teachers</h2>
               <div className="box-flex">
-                <h2 className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  inventore quisquam sapiente a. Laudantium consectetur dolorum
-                  officiis quas facilis ducimus saepe ipsa fugiat ea odit nemo,
-                  reprehenderit porro voluptates excepturi.
-                </h2>
-                <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+                <Carousel />
               </div>
             </div>
           </div>
@@ -68,4 +60,5 @@ class About extends Component {
     );
   }
 }
+
 export default About;
