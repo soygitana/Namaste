@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import PriceBox from "./PriceBox.jsx";
 import card1 from "../assets/card1.jpg";
 import card2 from "../assets/card2.jpg";

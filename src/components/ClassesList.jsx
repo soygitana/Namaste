@@ -3,12 +3,12 @@ import { yoga } from "./database";
 
 const ClassesList = () => (
   <>
-    {yoga.map((e, idx) => (
+    {yoga.map((e) => (
       <ClassesItem
+        key={e.id}
         photo={e.photo}
         title={e.title}
         text={e.description}
-        key={idx}
       />
     ))}
   </>

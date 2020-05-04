@@ -41,7 +41,7 @@ const HomePrices = () => (
     </div>
     <div className="container-flex-button">
       <Link to="/membership" className="button">
-        <i class="far fa-credit-card"></i>check prices
+        <i className="far fa-credit-card"></i>check prices
       </Link>
     </div>
   </section>

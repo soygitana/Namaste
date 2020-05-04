@@ -7,7 +7,7 @@ const HomeVoucher = () => (
         <h2 className="title">Get a VOUCHER</h2>
         <p className="text">Sit amet CONSECTEUR</p>
         <a className="button" href="#">
-          <i class="fas fa-gift"></i>voucher
+          <i className="fas fa-gift"></i>voucher
         </a>
       </div>
     </div>

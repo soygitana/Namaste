@@ -179,30 +179,36 @@ const slides = [
     title: "Alex",
     image: teacher1,
     text: "aerial yoga teacher",
+    text2: "a amet at commodo congue consequat diam fusce inceptos interdum maecenas mi morbi nisl orci penatibus porta risus sit tortor ultrices ultricies velit. Class convallis cras dolor donec facilisi leo lobortis magna mattis pellentesque semper. Accumsan consequat diam duis et euismod lacus nec neque nisi sem. Ad aliquam bibendum blandit convallis curabitur diam dictum dignissim erat inceptos integer litora magna mattis nam pellentesque sagittis suspendisse. Adipiscing aliquet bibendum congue dapibus erat eros facilisis feugiat himenaeos interdum justo lacinia lectus libero mus nam nec netus nibh non per pretium proin sociis suspendisse torquent turpis. Arcu blandit class condimentum congue conubia cubilia curae; dapibus diam dolor donec euismod inceptos lobortis lorem magnis malesuada odio pellentesque placerat platea porta ridiculus tellus tempus torquent vivamus."
   },
   {
     id: 2,
     title: "Anita",
     image: teacher2,
     text: "classic yoga teacher",
+    text2: "condimentum conubia cursus dictumst enim himenaeos iaculis interdum laoreet netus nisl placerat platea rhoncus tellus ultricies. Dignissim dolor dui erat fames felis fermentum id inceptos lectus litora nisl porta sapien tellus tempus ullamcorper ultrices. Ad aliquam aptent dui eros facilisis feugiat justo lacus lorem mus pellentesque pharetra pretium proin sagittis ut venenatis. Adipiscing aliquet bibendum congue dapibus erat eros facilisis feugiat himenaeos interdum justo lacinia lectus libero mus nam nec netus nibh non per pretium proin sociis suspendisse torquent turpis. Arcu blandit class condimentum congue conubia cubilia curae; dapibus diam dolor donec euismod inceptos lobortis lorem magnis malesuada odio pellentesque placerat platea porta ridiculus tellus tempus torquent vivamus."
   },
   {
     id: 3,
     title: "Elena",
     image: teacher3,
     text: "acro yoga teacher",
+    text2: "aenean augue blandit condimentum cursus duis et etiam facilisi interdum ipsum leo litora montes netus nisl parturient placerat platea potenti pulvinar quam sollicitudin tempus ultricies. Aenean amet augue facilisis lacinia mus natoque ornare pretium primis pulvinar vestibulum. Aptent curae; gravida inceptos morbi pretium quisque sagittis sociosqu turpis vel velit vulputate. Adipiscing aliquet bibendum congue dapibus erat eros facilisis feugiat himenaeos interdum justo lacinia lectus libero mus nam nec netus nibh non per pretium proin sociis suspendisse torquent turpis. Arcu blandit class condimentum congue conubia cubilia curae; dapibus diam dolor donec euismod inceptos lobortis lorem magnis malesuada odio pellentesque placerat platea porta ridiculus tellus tempus torquent vivamus."
+
   },
   {
     id: 4,
     title: "Carla",
     image: teacher4,
     text: "dynamic yoga teacher",
+    text2: "ad amet aptent dapibus dictumst dis donec felis ipsum mattis mollis nascetur nisi non praesent purus sapien ultrices varius vestibulum viverra. Accumsan egestas id maecenas nam nascetur praesent purus ultricies viverra. Amet class condimentum elit mus nibh nunc orci quis taciti ultrices. Adipiscing augue convallis eget elementum elit facilisi gravida hac ipsum mauris nisl ornare purus sociis sollicitudin tristique vestibulum vulputate. Adipiscing aliquet bibendum congue dapibus erat eros facilisis feugiat himenaeos interdum justo lacinia lectus libero mus nam nec netus nibh non per pretium proin sociis suspendisse torquent turpis. Arcu blandit class condimentum congue conubia cubilia curae; dapibus diam dolor donec euismod inceptos lobortis lorem magnis malesuada odio pellentesque placerat platea porta ridiculus tellus tempus torquent vivamus."
   },
   {
     id: 5,
     title: "Anna",
     image: teacher5,
     text: "meditation & yoga teacher",
+    text2: "aliquam consectetur cubilia cum dignissim duis enim id integer justo lectus libero ligula mattis parturient placerat posuere pretium primis purus rhoncus sagittis semper tempor tempus torquent turpis ultrices vel. Aenean auctor consequat cras diam dui elit facilisis habitant imperdiet ipsum lectus malesuada nulla odio platea pulvinar rhoncus sagittis sed sit suscipit tristique vulputate. Adipiscing aliquet bibendum congue dapibus erat eros facilisis feugiat himenaeos interdum justo lacinia lectus libero mus nam nec netus nibh non per pretium proin sociis suspendisse torquent turpis. Arcu blandit class condimentum congue conubia cubilia curae; dapibus diam dolor donec euismod inceptos lobortis lorem magnis malesuada odio pellentesque placerat platea porta ridiculus tellus tempus torquent vivamus."
   }
 ];
 

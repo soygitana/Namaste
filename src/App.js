@@ -10,6 +10,8 @@ import Home from "./components/Home.jsx";
 import Navigation from './components/Navigation.jsx';
 import Footer from './components/Footer.jsx';
 import About from './components/About.jsx';
+import Teachers from './components/Teachers.jsx';
+import PhotoGallery from './components/Gallery.jsx';
 import Contact from './components/Contact.jsx';
 import Membership from './components/Membership.jsx';
 import Classes from './components/Classes.jsx';
@@ -24,6 +26,8 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
+        <Route path='/teachers' component={Teachers} />
+        <Route path='/gallery' component={PhotoGallery} />
         <Route path='/contact' component={Contact} />
         <Route path='/membership' component={Membership} />
         <Route path='/classes' component={Classes} />

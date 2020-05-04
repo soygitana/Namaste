@@ -19,10 +19,10 @@ class Navigation extends Component {
         <div className="app-container">
           <div className="hero">
             <div className="container-flex contact">
-              <i class="fa fa-phone"></i>
+              <i className="fa fa-phone"></i>
               <p>500 987 xxx</p>
               <a href="#">
-                <i class="fab fa-facebook-square"></i>
+                <i className="fab fa-facebook-square"></i>
               </a>
             </div>
           </div>
@@ -39,7 +39,7 @@ class Navigation extends Component {
                   to="/"
                   className="page-nav-about"
                 >
-                  about<i class="fa fa-angle-down"></i>
+                  about<i className="fa fa-angle-down"></i>
                 </Link>
                 {this.state.showMenu ? (
                   <div className="drop-list">
