@@ -37,8 +37,8 @@ class Navigation extends Component {
                                         ? (
                                             <div className="drop-list">
                                                 <Link to="/about" className="drop-list-item">about our club</Link>
-                                                <Link to="/" className="drop-list-item">yoga teachers</Link>
-                                                <Link to="/" className="drop-list-item">gallery</Link>
+                                                <Link to="/teachers" className="drop-list-item">yoga teachers</Link>
+                                                <Link to="/gallery" className="drop-list-item">gallery</Link>
                                             </div>
                                         )
                                         : (
