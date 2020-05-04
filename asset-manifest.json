@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Namaste/static/css/main.637e64be.chunk.css",
+    "main.css": "/Namaste/static/css/main.555b394d.chunk.css",
     "main.js": "/Namaste/static/js/main.c4a97ddc.chunk.js",
     "main.js.map": "/Namaste/static/js/main.c4a97ddc.chunk.js.map",
     "runtime-main.js": "/Namaste/static/js/runtime-main.8fd1fea0.js",
@@ -8,9 +8,9 @@
     "static/js/2.6d196d2f.chunk.js": "/Namaste/static/js/2.6d196d2f.chunk.js",
     "static/js/2.6d196d2f.chunk.js.map": "/Namaste/static/js/2.6d196d2f.chunk.js.map",
     "index.html": "/Namaste/index.html",
-    "precache-manifest.17571db166ebeb088b45e327bce5efa0.js": "/Namaste/precache-manifest.17571db166ebeb088b45e327bce5efa0.js",
+    "precache-manifest.2c15edefe98f5d7746c0cfd7c14d3100.js": "/Namaste/precache-manifest.2c15edefe98f5d7746c0cfd7c14d3100.js",
     "service-worker.js": "/Namaste/service-worker.js",
-    "static/css/main.637e64be.chunk.css.map": "/Namaste/static/css/main.637e64be.chunk.css.map",
+    "static/css/main.555b394d.chunk.css.map": "/Namaste/static/css/main.555b394d.chunk.css.map",
     "static/media/about.jpg": "/Namaste/static/media/about.cf02ecbc.jpg",
     "static/media/acro.jpg": "/Namaste/static/media/acro.d0d9be29.jpg",
     "static/media/aerial_flow.mp4": "/Namaste/static/media/aerial_flow.9304b7da.mp4",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.8fd1fea0.js",
     "static/js/2.6d196d2f.chunk.js",
-    "static/css/main.637e64be.chunk.css",
+    "static/css/main.555b394d.chunk.css",
     "static/js/main.c4a97ddc.chunk.js"
   ]
 }
