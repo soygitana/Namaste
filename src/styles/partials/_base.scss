@@ -9,8 +9,6 @@ body {
   margin: 0 auto;
 }
 
-// flex box classes creation
-
 .container-flex {
   display: flex;
   justify-content: space-between;
@@ -28,14 +26,10 @@ body {
   align-items: center;
 }
 
-// responsive image 
-
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
-
-// base classes for button, title, text formatting
 
 .button {
   text-decoration: none;
@@ -58,6 +52,9 @@ body {
   &:hover {
     color: $colorDeco;
     background: transparent;
+  }
+  &:focus {
+    color: $colorDeco2;
   }
 }
 
