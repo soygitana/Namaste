@@ -54,7 +54,8 @@ body {
     background: transparent;
   }
   &:focus {
-    color: #fff;
+    color: $colorDeco;
+    background: transparent;
   }
 }
 
