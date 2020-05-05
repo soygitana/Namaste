@@ -19,6 +19,7 @@ class Schedule extends React.Component {
         StartTime: new Date(2020, 4, 5, 10, 0),
         EndTime: new Date(2020, 4, 5, 11, 0),
         IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
       },
       {
         Id: 2,
@@ -26,6 +27,7 @@ class Schedule extends React.Component {
         StartTime: new Date(2020, 4, 5, 12, 0),
         EndTime: new Date(2020, 4, 5, 13, 0),
         IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
       },
       {
         Id: 3,
@@ -33,6 +35,79 @@ class Schedule extends React.Component {
         StartTime: new Date(2020, 4, 6, 14, 0),
         EndTime: new Date(2020, 4, 6, 15, 0),
         IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 4,
+        Subject: "Strala yoga",
+        StartTime: new Date(2020, 4, 5, 17, 0),
+        EndTime: new Date(2020, 4, 5, 18, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 5,
+        Subject: "Strala yoga",
+        StartTime: new Date(2020, 4, 6, 17, 0),
+        EndTime: new Date(2020, 4, 6, 18, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 6,
+        Subject: "Aerial yoga 1",
+        StartTime: new Date(2020, 4, 8, 18, 0),
+        EndTime: new Date(2020, 4, 8, 19, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 6,
+        Subject: "Aerial yoga 1",
+        StartTime: new Date(2020, 4, 6, 7, 0),
+        EndTime: new Date(2020, 4, 6, 8, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 7,
+        Subject: "Body Art",
+        StartTime: new Date(2020, 4, 4, 7, 0),
+        EndTime: new Date(2020, 4, 4, 8, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 9,
+        Subject: "Stretching",
+        StartTime: new Date(2020, 4, 8, 8, 0),
+        EndTime: new Date(2020, 4, 8, 9, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 10,
+        Subject: "Kids yoga",
+        StartTime: new Date(2020, 4, 7, 18, 0),
+        EndTime: new Date(2020, 4, 7, 19, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 11,
+        Subject: "Aerial yoga 3",
+        StartTime: new Date(2020, 4, 7, 15, 0),
+        EndTime: new Date(2020, 4, 7, 16, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
+      },
+      {
+        Id: 11,
+        Subject: "Aerial yoga 2",
+        StartTime: new Date(2020, 4, 4, 19, 0),
+        EndTime: new Date(2020, 4, 4, 20, 0),
+        IsAllDay: false,
+        RecurrenceRule: "FREQ=WEEKLY; INTERVAL=1",
       },
     ];
   }
@@ -53,7 +128,7 @@ class Schedule extends React.Component {
 
           <ScheduleComponent
             width="100%"
-            selectedDate={new Date(2020, 4, 5)}
+            selectedDate={new Date()}
             eventSettings={{ dataSource: this.data }}
           >
             <ViewsDirective>
