@@ -4,7 +4,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can visit the deployed app, at https://soygitana.github.io/Namaste/
+You can visit the website at https://soygitana.github.io/Namaste/
 
 
 ### Technologies used
